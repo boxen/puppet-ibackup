@@ -1,4 +1,6 @@
-# Backup Puppet Module for Boxen
+# iBackup Puppet Module for Boxen
+
+Install [iBackup](http://www.grapefruit.ch/iBackup/), a simple to use backup/restore utility.
 
 ## Usage
 
