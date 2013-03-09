@@ -1,4 +1,4 @@
-# iBackup Puppet Module for Boxen
+# iBackup Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-ibackup.png?branch=master)](https://travis-ci.org/boxen/puppet-ibackup)
 
 Install [iBackup](http://www.grapefruit.ch/iBackup/), a simple to use backup/restore utility.
 
@@ -14,5 +14,8 @@ include ibackup
 
 ## Development
 
-Write code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+Write code. Run one of the following tasks to test it:
+* `rake syntax`
+* `rake style`
+* `rake spec`
+* `rake build`
