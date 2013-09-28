@@ -3,9 +3,16 @@
 # Examples
 #
 #   include ibackup
-class ibackup {
-  package { 'iBackup':
+#
+#   class { 'ibackup':
+#     version => '7.5'
+#   }
+#
+class ibackup($version='7.5') {
+
+  package { "iBackup-${version}":
     provider => 'appdmg',
-    source   => 'http://www.grapefruit.ch/iBackup/versions/iBackup%207.x/iBackup%207.4.dmg',
+    source   => "http://www.grapefruit.ch/iBackup/versions/iBackup%207.x/iBackup%20${version}.dmg",
   }
+
 }
